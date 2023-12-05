@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the HTML document for selling cars">
+    <meta name="Roboto" content="noindex, nofllow">
+    <title>DvndrAutos</title>
+<!-- importing the required fonts for the page -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather:wght@700&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- linking custom css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- header section beginnning -->
+
+    <header class="header">
+
+    <div id="menuLogo" class = "fas fa-bars"></div>
+         <!-- logo for nav -->
+    <a href="#" class = 'logo'>
+        <span>Dvndr</span>Autos
+    </a>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="product.html">Product</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="loginBtn">
+            Login
+        </button>
+    </header>
+    <!-- header section ending -->
+
+    <!-- creating user login form -->
+    <div class="loginFormContainer">
+        <span class = "fas fa-times" id="loginPromptClose"></span>
+        <form action="#">
+            <h3>User</h3>
+            <input type="email" placeholder=" @mail" class="inp">
+            <input type="password" placeholder=" password" class="inp">
+            <input type="submit" value="Login"  id = "logPrmBtn" class = "loginBtn">
+        </form>
+    </div>
+
+    <!-- data for the homepage begins -->
+    <section class="first-section">
+        <img src="./media/images/car-1244524_1280.jpeg" alt="car-img" id="banner">
+        <div id="txt_on_banner">
+            Find your daily ride at <span id="txt_highlight">Lowest!</span> price
+        </div>
+    </section>
+
+<section class = 'product_labels'>
+        <div class="grid_layout_container">
+            <div class="item_box">
+                <img src="./media/images/automobile-1291492_1280.jpeg" alt="Car-IMG">
+                <span class="rate">$97,799</span>
+                <span>Mercedes G-Wagon R45</span>
+                <button class="purchase_btn">Explore</button>
+            </div>
+         
+            <div class="item_box">
+                <img src="./media/images/ferrari-1875569_1280.jpeg" alt="Car-IMG">
+                <span class="rate">$997,799</span>
+                <span>Ferrari X64</span>
+                <button class="purchase_btn">Explore</button>
+            </div>
+        
+            <div class="item_box">
+                <img src="./media/images/amg-1880384_1280.jpeg" alt="Car-IMG">
+                <span class="rate">$127,799</span>
+                <span>AMG 188</span>
+                <button class="purchase_btn">Explore</button>
+            </div>
+    </div>
+
+    <div id="lead_to_products">
+        
+        <a id= "more_btn" href="product.html">More -></a>
+    </div>
+</section>
+<!-- footer -->
+<footer class="global-footer">
+        
+        <div class="contact-info">
+            <p>DvndrAutos, Barrie, Ontario</p>
+            <p>Email: info@dvndrautos.com</p>
+            <p>Phone: +1-123-456-7890</p>
+        </div>
+    
+    <div class="copyright">
+        &copy; 2023 DvndrAutos. All rights reserved.
+    </div>
+</footer>
+
+
+    <!-- linking custom js file -->
+    <script src="script.js"></script>
+</body>
+</html>
